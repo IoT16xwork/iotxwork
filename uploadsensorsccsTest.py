@@ -81,7 +81,7 @@ def is_correct_connection_string():
         return False
 
 #CONNECTION_STRING = sys.argv[1]
-CONNECTION_STRING = "HostName=ateatest.azure-devices.net;DeviceId=rpi;SharedAccessKey=Zc2UukCSfHcweE/V5moSiUnmfz9zfFu7kc21zGKDuiw="
+CONNECTION_STRING = ""
 
 if not is_correct_connection_string():
     print ( "Device connection string is not correct." )
